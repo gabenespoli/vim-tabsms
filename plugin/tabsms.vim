@@ -52,7 +52,7 @@ function! SMSTabline()
     "modified flag
     let s .= '%*'
     let s .= (i == t ? '%#TabModSel#' : '%#TabMod#')
-    let s .= (i == t ? '%M' : '')
+    let s .= (i == t ? '%m' : '')
     let s .= '%*'
     let s .= (i == t ? '%#TabLineSel#' : '%#TabLine#')
     " end of tab
